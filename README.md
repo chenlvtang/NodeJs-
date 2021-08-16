@@ -1,4 +1,4 @@
-## 0x00 收集来源
+## 0x00 Sources
 
 chall_4: [CTF-Challenge/nodejs/chall_4 at master · meizjm3i/CTF-Challenge (github.com)](https://github.com/meizjm3i/CTF-Challenge/tree/master/nodejs/chall_4)
 
@@ -9,4 +9,14 @@ hardjs: [OurChallenges/XNUCA2019Qualifier/Web/hardjs at master · NeSE-Team/OurC
 blueprint: [redpwnctf-2019-challenges/web/blueprint at master · redpwn/redpwnctf-2019-challenges (github.com)](https://github.com/redpwn/redpwnctf-2019-challenges/tree/master/web/blueprint)
 
 thejs: [code-breaking/2018/thejs at master · phith0n/code-breaking (github.com)](https://github.com/phith0n/code-breaking/tree/master/2018/thejs)
+
+## 0x01 EXP
+
+The dictionary which named "exp" saves the solutions(Python Scripts --3.8.2 32bit) to the challenges. 
+
+Have fun! 
+
+: )
+
+​																													-- chenlvtang 2021/08/16
 
