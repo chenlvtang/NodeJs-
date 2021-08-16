@@ -6,3 +6,7 @@ chall_4: [CTF-Challenge/nodejs/chall_4 at master · meizjm3i/CTF-Challenge (gith
 
 hardjs: [OurChallenges/XNUCA2019Qualifier/Web/hardjs at master · NeSE-Team/OurChallenges (github.com)](https://github.com/NeSE-Team/OurChallenges/tree/master/XNUCA2019Qualifier/Web/hardjs)
 
+blueprint: [redpwnctf-2019-challenges/web/blueprint at master · redpwn/redpwnctf-2019-challenges (github.com)](https://github.com/redpwn/redpwnctf-2019-challenges/tree/master/web/blueprint)
+
+thejs: [code-breaking/2018/thejs at master · phith0n/code-breaking (github.com)](https://github.com/phith0n/code-breaking/tree/master/2018/thejs)
+

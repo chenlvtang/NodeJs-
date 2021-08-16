@@ -46,7 +46,8 @@ app.get('/admin', (req, res) => {
 		res.send('Hey admin your flag is <b>flag{prototype_pollution_is_very_dangerous}</b>');
 	} 
 	else {
-		res.status(403).send('Forbidden');
+		res.send("TRY YOUR BEST!HACKER");
+		// res.status(403).send('Forbidden');
 	}	
 }
 )
