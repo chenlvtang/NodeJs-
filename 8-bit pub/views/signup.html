@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>8-BIT PUB</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link rel="stylesheet" href="/stylesheets/nes.min.css" />
+    <link rel="stylesheet" href="/stylesheets/nes-icons.min.css" />
+    <script src="/javascripts/jquery.min.js"></script>
+    <script src="/javascripts/script.js"></script>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="header-items">
+        <div class="title">
+          <img src="/images/logo.png" class="logo" />
+          <div class="title-text">8-bit Pub</div>
+        </div>
+        <div class="links">
+          <a href="/" class="title-link">HOME</a>
+          <a href="/signin" class="title-link">SIGNIN</a>
+          <a href="/signup" class="title-link">SIGNUP</a>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="message-card nes-container with-title is-centered">
+        <p class="title">SIGN UP HERE</p>
+        <div class="nes-field is-inline">
+          <label for="name_field">Username</label>
+          <input type="text" name="username" class="nes-input" />
+        </div>
+        <div class="nes-field is-inline">
+          <label for="name_field">Password</label>
+          <input type="password" name="password1" class="nes-input" />
+        </div>
+        <div class="nes-field is-inline">
+          <label for="name_field">Retype password</label>
+          <input type="password" name="password2" class="nes-input" />
+        </div>
+        <button type="button" id="signup" class="nes-btn is-warning">SIGN UP</button>
+      </div>
+    </div>
+    <div class="empty"></div>
+    <div class="footer">© 2021 8-bit Pub</div>
+    <dialog class="nes-dialog" id="dialog">
+      <form method="dialog">
+        <p class="title">Dialog</p>
+        <p id="dialog-msg"></p>
+        <menu class="dialog-menu">
+          <button class="nes-btn">Cancel</button>
+          <button class="nes-btn is-primary">Confirm</button>
+        </menu>
+      </form>
+    </dialog>
+  </body>
+</html>

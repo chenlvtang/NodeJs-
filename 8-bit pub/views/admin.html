@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>8-BIT PUB</title>
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+  <link rel="stylesheet" href="/stylesheets/nes.min.css" />
+  <link rel="stylesheet" href="/stylesheets/nes-icons.min.css" />
+  <script src="/javascripts/jquery.min.js"></script>
+  <script src="/javascripts/script.js"></script>
+</head>
+
+<body>
+  <div class="header">
+    <div class="header-items">
+      <div class="title">
+        <img src="/images/logo.png" class="logo" />
+        <div class="title-text">8-bit Pub</div>
+      </div>
+      <div class="links">
+        <a href="/" class="title-link">HOME</a>
+        <a href="/admin" class="title-link">ADMIN</a>
+        <a href="/logout" class="title-link">LOGOUT</a>
+      </div>
+    </div>
+  </div>
+  <div class="main">
+    <div>
+      <p class="nes-balloon from-left nes-pointer">
+        Admins can send promotional emails here~
+      </p>
+    </div>
+    <div>
+      <div class="message-card nes-container with-title is-centered">
+        <p class="title">SEND EMAILS</p>
+        <div class="nes-field">
+          <label for="name_field">TO</label>
+          <input type="email" name="to" class="nes-input" />
+        </div>
+        <div class="nes-field">
+          <label for="name_field">SUBJECT</label>
+          <input type="text" name="subject" class="nes-input" value="Weekend Nights with 8-bit Pub?🍸" />
+        </div>
+        <label for="textarea_field">CONTENTS</label>
+        <textarea id="contents" name="contents" rows="5" class="nes-textarea">Good day!
+The 8-bit pub is a perfect place for young people who are passionate about 8-bit subculture.
+It has an array of dazzling cocktails, a futuristic environment, and a comfortable atmosphere.
+If you still don’t know what to do on weekend nights, then come here, you will love it!</textarea>
+        <button type="button" id="send" class="nes-btn is-warning">
+          SEND
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="empty"></div>
+  <div class="footer">© 2021 8-bit Pub</div>
+  <section>
+    <dialog class="nes-dialog" id="dialog">
+      <form method="dialog">
+        <p class="title">Dialog</p>
+        <p id="dialog-msg"></p>
+        <menu class="dialog-menu">
+          <button class="nes-btn">Cancel</button>
+          <button class="nes-btn is-primary">Confirm</button>
+        </menu>
+      </form>
+    </dialog>
+  </section>
+</body>
+
+</html>
