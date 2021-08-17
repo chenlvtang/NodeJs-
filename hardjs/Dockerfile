@@ -2,12 +2,13 @@ FROM node:latest
 
 ENV DEBIAN_FRONTEND noninteractive  
 ENV FLAG flag{4cc931e80cc8f8eceb6a0ea2fb532d8a}
-RUN sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list
-RUN sed -i 's/security.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list
+#when i use aliyun,it crash
+#RUN sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list
+#RUN sed -i 's/security.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list
 
-# install mysql
+# install mysql , when i use mysql-server/client, it crash
 RUN apt-get update && apt-get -y dist-upgrade &&  \ 
-    apt-get install -y mysql-server mysql-client && \
+    apt-get install -y mariadb-server mariadb-client && \
     /etc/init.d/mysql start && \ 
     apt-get install -y chromium chromium-driver unzip wget curl python python-pip && \ 
     pip install -U selenium 
