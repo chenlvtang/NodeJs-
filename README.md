@@ -20,3 +20,11 @@ Have fun!
 
 ​																													-- chenlvtang 2021/08/16
 
+## 0x02 Difficulty
+
+<small>⭐⭐⭐⭐⭐ IS THE HARDEST</small>
+
+chall_4: ⭐⭐ （easy. U don't have to care about the error when u view the index , just try to hack.）
+
+8-bit pub: ⭐⭐⭐⭐⭐ (I didn't do it. Because it needs Mysql && SMTP && Linux, why don't there are a DockerFile. SAD....)
+
