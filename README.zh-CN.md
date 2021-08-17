@@ -1,6 +1,6 @@
-Language : [English](./README.md) | [简中](./README.zh-CN.md)
+语言 : [English](./README.md) | [简中](./README.zh-CN.md)
 
-## 0x00 Sources
+## 0x00 来源
 
 chall_4: [CTF-Challenge/nodejs/chall_4 at master · meizjm3i/CTF-Challenge (github.com)](https://github.com/meizjm3i/CTF-Challenge/tree/master/nodejs/chall_4)
 
@@ -14,7 +14,7 @@ thejs: [code-breaking/2018/thejs at master · phith0n/code-breaking (github.com)
 
 ## 0x01 EXP
 
-The dictionary which named "exp" saves the solutions(Python Scripts --3.8.2 32bit) to the challenges. 
+EXP文件夹中含有题目的利用脚本(Python Scripts --3.8.2 32bit) 
 
 Have fun! 
 
@@ -22,13 +22,13 @@ Have fun!
 
 ​																													-- chenlvtang 2021/08/16
 
-## 0x02 Difficulty
+## 0x02 难度
 
-<small>⭐⭐⭐⭐⭐ IS THE HARDEST</small>
+<small>⭐⭐⭐⭐⭐ 最高难度</small>
 
-chall_4: ⭐⭐ （easy. U don't have to care about the error when u view the index , just try to hack.）
+chall_4: ⭐⭐ （容易。访问主页可能报错，但是不影响做题）
 
-8-bit pub: ⭐⭐⭐⭐⭐ (I didn't do it. Because it needs Mysql && SMTP && Linux, why don't there are a Dockerfile. SAD....)
+8-bit pub: ⭐⭐⭐⭐⭐ (没做，需要mysql和SMTP和Linux环境，为什么没有一个Dockerfile，难受....)
 
-hardjs: (The origin Dockerfile had some problems, which wasted me a lot of time. I deleted the aliyun mirrors, and changed the mysql to mariadb, and it finally work.  But it still failed in the Ubuntu, when i ran it in Kali, ohhhhh, Success. )
+hardjs: (初始Dockerfile有点问题，浪费我很多时间，我删掉镜像源阿里云、把mysql改成mariadb后可以成功创建docker镜像，但是在Ubuntu下还是不能运行，换到kali之后，ohhhhh，终于成功)
 
