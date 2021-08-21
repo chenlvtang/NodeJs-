@@ -30,5 +30,5 @@ chall_4: ⭐⭐ （容易。访问主页可能报错，但是不影响做题）
 
 8-bit pub: ⭐⭐⭐⭐⭐ (没做，需要mysql和SMTP和Linux环境，为什么没有一个Dockerfile，难受....)
 
-hardjs: (初始Dockerfile有点问题，浪费我很多时间，我删掉镜像源阿里云、把mysql改成mariadb后可以成功创建docker镜像，但是在Ubuntu下还是不能运行，换到kali之后，ohhhhh，终于成功)
+hardjs: ⭐⭐⭐⭐(初始Dockerfile有点问题，浪费我很多时间，我删掉镜像源阿里云、把mysql改成mariadb后可以成功创建docker镜像，但是在Ubuntu下还是不能运行，换到kali之后，ohhhhh，终于成功。由于不知道什么原因，exp没打通，但是感觉逻辑没错。)
 
