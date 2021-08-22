@@ -32,3 +32,4 @@ chall_4: ⭐⭐ （容易。访问主页可能报错，但是不影响做题）
 
 hardjs: ⭐⭐⭐⭐(初始Dockerfile有点问题，浪费我很多时间，我删掉镜像源阿里云、把mysql改成mariadb后可以成功创建docker镜像，但是在Ubuntu下还是不能运行，换到kali之后，ohhhhh，终于成功。由于不知道什么原因，exp没打通，但是感觉逻辑没错。)
 
+thejs: ⭐⭐⭐⭐ (如果你完成了hardjs，这一题会很简单)

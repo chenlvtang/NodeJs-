@@ -30,5 +30,7 @@ chall_4: ⭐⭐ （easy. U don't have to care about the error when u view the in
 
 8-bit pub: ⭐⭐⭐⭐⭐ (I didn't do it. Because it needs Mysql && SMTP && Linux, why don't there are a Dockerfile. SAD....)
 
-hardjs: ⭐⭐⭐⭐ (The origin Dockerfile had some problems, which wasted me a lot of time. I deleted the aliyun mirrors, and changed the mysql to mariadb, and it finally work.  But it still failed in the Ubuntu, when i ran it in Kali, ohhhhh, Success. The EXP failed with unknow reason....but I think the exp's logc is right. )
+hardjs: ⭐⭐⭐⭐ (The origin Dockerfile had some problems, which wasted me a lot of time. I deleted the aliyun mirrors, and changed the mysql to mariadb, and it finally work.  But it still failed in the Ubuntu, when i ran it in Kali, ohhhhh, Success. The EXP failed with unknow reason....but I think the exp's logic is right. )
+
+thejs: ⭐⭐⭐⭐ (if u had finished hardjs, this challenge will be very easy)
 
